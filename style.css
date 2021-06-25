@@ -28,12 +28,33 @@ section {
 }
 
 section .delBtn {
-    width: 10px;
-    height: 18px;
+    width: 10%;
+    height: 100%;
     background-color: rgb(167, 39, 39);
     position: absolute;
-    right: 0;
+    right: 1px;
+    bottom: 0px;
     cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .editBtn {
+    width: 9%;
+    height: 100%;
+    background-color: rgb(192, 206, 68);
+    position: absolute;
+    /* right: 42px; */
+    transform: translateX(871%);
+    bottom: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section .addItem {
@@ -53,14 +74,14 @@ section button {
 
 section ul {
     background-color: rgb(85, 164, 228);
-    width: 35vw;
+    width: 50vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 section li {
-    width: 25vw;
+    width: 40vw;
     list-style-type: none;
     background-color: coral;
     height: 30px;
@@ -69,4 +90,6 @@ section li {
     padding: 8px;
     position: relative;
     display: flex;
+    flex-direction: row;
+    align-items: end;
 }
