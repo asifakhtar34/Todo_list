@@ -41,7 +41,7 @@ section .addItem {
     margin: 20px;
 }
 
-section #task {
+section #newTask {
     height: 30px;
     width: 25vw;
 }
