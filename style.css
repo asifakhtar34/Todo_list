@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    border: 2px solid black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(155, 130, 130);
+    color: rgb(63, 8, 63);
+}
+
+section {
+    border: 2px solid seagreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+}
+
+section .delBtn {
+    width: 10px;
+    height: 18px;
+    background-color: rgb(167, 39, 39);
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+section .addItem {
+    height: 70px;
+    margin: 20px;
+}
+
+section #task {
+    height: 30px;
+    width: 25vw;
+}
+
+section button {
+    height: 30px;
+    width: 70px;
+}
+
+section ul {
+    background-color: rgb(85, 164, 228);
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section li {
+    width: 25vw;
+    list-style-type: none;
+    background-color: coral;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 8px;
+    position: relative;
+    display: flex;
+}
