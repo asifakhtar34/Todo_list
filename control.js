@@ -99,20 +99,7 @@ function appendItem() {
 
             }
 
-            // function updateListEnter(event) {
-            //     if (event.key == "Enter") {
-            //         console.log("hello");
-            //         let uItem = inTask.value;
-            //         console.log(uItem);
 
-            //         ev.target.parentNode.childNodes[0].nodeValue = uItem;
-            //         addBtn.disabled = false;
-            //         // inTask.removeEventListener("keyup", update);
-
-            //         inTask.value = "";
-            //         inTask.removeEventListener("keyup", updateListEnter);
-            //     }
-            // }
         });
 
 
