@@ -169,6 +169,7 @@ editArr.forEach((item, ind, arr) =>
                 inTask.value = "";
 
                 updateBtn.removeEventListener("click", updateList);
+                inTask.addEventListener("keyup", enter);
             }
 
         }
